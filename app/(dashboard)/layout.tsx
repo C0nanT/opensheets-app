@@ -1,3 +1,4 @@
+import { PrivacyProvider } from "@/components/privacy-provider";
 import { SiteHeader } from "@/components/header-dashboard";
 import { AppSidebar } from "@/components/sidebar/app-sidebar";
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
@@ -7,7 +8,7 @@ import { fetchPagadoresWithAccess } from "@/lib/pagadores/access";
 import { PAGADOR_ROLE_ADMIN } from "@/lib/pagadores/constants";
 import { parsePeriodParam } from "@/lib/utils/period";
 
-export default async function layout({
+export default async function DashboardLayout({
   children,
   searchParams,
 }: Readonly<{
@@ -40,28 +41,30 @@ export default async function layout({
   );
 
   return (
-    <SidebarProvider>
-      <AppSidebar
-        user={{ ...session.user, image: session.user.image ?? null }}
-        pagadorAvatarUrl={adminPagador?.avatarUrl ?? null}
-        pagadores={pagadoresList.map((item) => ({
-          id: item.id,
-          name: item.name,
-          avatarUrl: item.avatarUrl,
-          canEdit: item.canEdit,
-        }))}
-        variant="inset"
-      />
-      <SidebarInset>
-        <SiteHeader notificationsSnapshot={notificationsSnapshot} />
-        <div className="flex flex-1 flex-col">
-          <div className="@container/main flex flex-1 flex-col gap-2">
-            <div className="flex flex-col gap-4 py-4 md:gap-6 md:py-6">
-              {children}
+    <PrivacyProvider>
+      <SidebarProvider>
+        <AppSidebar
+          user={{ ...session.user, image: session.user.image ?? null }}
+          pagadorAvatarUrl={adminPagador?.avatarUrl ?? null}
+          pagadores={pagadoresList.map((item) => ({
+            id: item.id,
+            name: item.name,
+            avatarUrl: item.avatarUrl,
+            canEdit: item.canEdit,
+          }))}
+          variant="inset"
+        />
+        <SidebarInset>
+          <SiteHeader notificationsSnapshot={notificationsSnapshot} />
+          <div className="flex flex-1 flex-col">
+            <div className="@container/main flex flex-1 flex-col gap-2">
+              <div className="flex flex-col gap-4 py-4 md:gap-6 md:py-6">
+                {children}
+              </div>
             </div>
           </div>
-        </div>
-      </SidebarInset>
-    </SidebarProvider>
+        </SidebarInset>
+      </SidebarProvider>
+    </PrivacyProvider>
   );
 }

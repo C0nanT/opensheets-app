@@ -1,4 +1,3 @@
-import { PrivacyProvider } from "@/components/privacy-provider";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { main_font } from "@/public/fonts/font_index";
@@ -23,10 +22,8 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <ThemeProvider attribute="class" defaultTheme="light">
-          <PrivacyProvider>
-            {children}
-            <Toaster position="top-right" />
-          </PrivacyProvider>
+          {children}
+          <Toaster position="top-right" />
         </ThemeProvider>
         <Analytics />
       </body>
