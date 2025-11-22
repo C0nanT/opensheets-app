@@ -11,7 +11,7 @@ export function Logo({ variant = "full", className }: LogoProps) {
     return (
       <Image
         src="/logo_small.png"
-        alt="OpenSheets"
+        alt="Opensheets"
         width={32}
         height={32}
         className={cn("object-contain", className)}
@@ -24,7 +24,7 @@ export function Logo({ variant = "full", className }: LogoProps) {
     <div className={cn("flex items-center", className)}>
       <Image
         src="/logo_small.png"
-        alt="OpenSheets"
+        alt="Opensheets"
         width={28}
         height={28}
         className="object-contain"
@@ -32,7 +32,7 @@ export function Logo({ variant = "full", className }: LogoProps) {
       />
       <Image
         src="/logo_text.png"
-        alt="OpenSheets"
+        alt="Opensheets"
         width={100}
         height={32}
         className="object-contain dark:invert"

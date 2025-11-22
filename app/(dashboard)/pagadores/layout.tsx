@@ -2,7 +2,7 @@ import PageDescription from "@/components/page-description";
 import { RiGroupLine } from "@remixicon/react";
 
 export const metadata = {
-  title: "Pagadores | OpenSheets",
+  title: "Pagadores | Opensheets",
 };
 
 export default function RootLayout({

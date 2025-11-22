@@ -209,7 +209,7 @@ const resolveUserLabel = (user: {
   if (user?.email && user.email.trim().length > 0) {
     return user.email;
   }
-  return "OpenSheets";
+  return "Opensheets";
 };
 
 type InitialCandidate = {
@@ -1320,8 +1320,12 @@ export async function deleteMultipleLancamentosAction(
 
     // Send notifications
     const notificationData = existing
-      .filter((item): item is typeof item & { pagadorId: NonNullable<typeof item.pagadorId> } =>
-        Boolean(item.pagadorId)
+      .filter(
+        (
+          item
+        ): item is typeof item & {
+          pagadorId: NonNullable<typeof item.pagadorId>;
+        } => Boolean(item.pagadorId)
       )
       .map((item) => ({
         pagadorId: item.pagadorId,

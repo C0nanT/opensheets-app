@@ -47,7 +47,7 @@ export default async function Page() {
             <div>
               <h2 className="text-lg font-medium mb-1">Alterar nome</h2>
               <p className="text-sm text-muted-foreground mb-4">
-                Atualize como seu nome aparece no OpenSheets. Esse nome pode ser
+                Atualize como seu nome aparece no Opensheets. Esse nome pode ser
                 exibido em diferentes seções do app e em comunicações.
               </p>
             </div>
@@ -73,7 +73,10 @@ export default async function Page() {
                 atual (quando aplicável) para concluir a alteração.
               </p>
             </div>
-            <UpdateEmailForm currentEmail={userEmail} authProvider={authProvider} />
+            <UpdateEmailForm
+              currentEmail={userEmail}
+              authProvider={authProvider}
+            />
           </TabsContent>
 
           <TabsContent value="deletar" className="space-y-4">

@@ -2,7 +2,7 @@ import PageDescription from "@/components/page-description";
 import { RiSettingsLine } from "@remixicon/react";
 
 export const metadata = {
-  title: "Ajustes | OpenSheets",
+  title: "Ajustes | Opensheets",
 };
 
 export default function RootLayout({

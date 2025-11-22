@@ -99,7 +99,7 @@ export function LoginForm({ className, ...props }: DivProps) {
             noValidate
           >
             <FieldGroup className="gap-4">
-              <AuthHeader title="Entrar no OpenSheets" />
+              <AuthHeader title="Entrar no Opensheets" />
 
               <AuthErrorAlert error={error} />
 

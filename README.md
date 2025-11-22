@@ -1,4 +1,4 @@
-# OpenSheets
+# Opensheets
 
 > Projeto pessoal de gestão financeira. Self-hosted, manual e open source.
 
@@ -31,7 +31,7 @@
 
 ## 🎯 Sobre o Projeto
 
-**OpenSheets** é um projeto pessoal de gestão financeira que criei para organizar minhas próprias finanças. Cansei de usar planilhas desorganizadas e aplicativos que não fazem exatamente o que preciso, então decidi construir algo do jeito que funciona pra mim.
+**Opensheets** é um projeto pessoal de gestão financeira que criei para organizar minhas próprias finanças. Cansei de usar planilhas desorganizadas e aplicativos que não fazem exatamente o que preciso, então decidi construir algo do jeito que funciona pra mim.
 
 A ideia é simples: ter um lugar onde consigo ver todas as minhas contas, cartões, gastos e receitas de forma clara. Se isso for útil pra você também, fique à vontade para usar e contribuir.
 
@@ -47,7 +47,7 @@ Você precisa registrar manualmente suas transações. Se você procura algo que
 
 **3. Requer disciplina**
 
-O OpenSheets funciona melhor para quem:
+O Opensheets funciona melhor para quem:
 
 - Tem disciplina de registrar os gastos regularmente
 - Quer controle total sobre seus dados

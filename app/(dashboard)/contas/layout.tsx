@@ -2,7 +2,7 @@ import PageDescription from "@/components/page-description";
 import { RiBankLine } from "@remixicon/react";
 
 export const metadata = {
-  title: "Contas | OpenSheets",
+  title: "Contas | Opensheets",
 };
 
 export default function RootLayout({

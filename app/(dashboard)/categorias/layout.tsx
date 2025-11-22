@@ -2,7 +2,7 @@ import PageDescription from "@/components/page-description";
 import { RiPriceTag3Line } from "@remixicon/react";
 
 export const metadata = {
-  title: "Categorias | OpenSheets",
+  title: "Categorias | Opensheets",
 };
 
 export default function RootLayout({

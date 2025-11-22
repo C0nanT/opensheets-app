@@ -2,7 +2,7 @@ import PageDescription from "@/components/page-description";
 import { RiArrowLeftRightLine } from "@remixicon/react";
 
 export const metadata = {
-  title: "Lançamentos | OpenSheets",
+  title: "Lançamentos | Opensheets",
 };
 
 export default function RootLayout({

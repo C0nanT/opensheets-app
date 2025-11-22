@@ -21,6 +21,7 @@ import {
   RiTimeLine,
   RiWalletLine,
 } from "@remixicon/react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default async function Page() {
@@ -148,6 +149,25 @@ export default async function Page() {
                 <RiGithubFill size={18} className="text-primary" />
                 100% Open Source
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Dashboard Preview Section */}
+      <section className="py-8 md:py-16">
+        <div className="container">
+          <div className="mx-auto max-w-6xl">
+            <div className="relative rounded-xl border bg-muted/20 shadow-2xl overflow-hidden">
+              <div className="absolute inset-0 bg-linear-to-t from-background/80 to-transparent z-10 pointer-events-none" />
+              <Image
+                src="/dashboard-preview.png"
+                alt="opensheets Dashboard Preview"
+                width={1920}
+                height={1080}
+                className="w-full h-auto"
+                priority
+              />
             </div>
           </div>
         </div>
@@ -524,7 +544,7 @@ export default async function Page() {
                 Para quem funciona?
               </h2>
               <p className="text-lg text-muted-foreground">
-                O OpenSheets funciona melhor se você:
+                O opensheets funciona melhor se você:
               </p>
             </div>
 
@@ -696,7 +716,7 @@ export default async function Page() {
 
             <div className="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
               <p>
-                © {new Date().getFullYear()} OpenSheets. Projeto open source sob
+                © {new Date().getFullYear()} opensheets. Projeto open source sob
                 licença MIT.
               </p>
               <div className="flex items-center gap-2">
