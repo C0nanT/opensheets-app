@@ -160,7 +160,7 @@ export function ExpensesByCategoryWidget({
                   {budgetExceeded ? (
                     <>
                       {formatPercentage(category.budgetUsedPercentage)} do
-                      limite • excedeu em {formatCurrency(exceededAmount)}
+                      limite - excedeu em {formatCurrency(exceededAmount)}
                     </>
                   ) : (
                     <>

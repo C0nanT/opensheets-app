@@ -48,7 +48,7 @@ export function PagadorMonthlySummaryCard({
       <CardHeader className="flex flex-col gap-1.5 pb-4">
         <CardTitle className="text-lg font-semibold">Totais do mês</CardTitle>
         <p className="text-xs text-muted-foreground">
-          {periodLabel} • despesas por forma de pagamento
+          {periodLabel} - despesas por forma de pagamento
         </p>
       </CardHeader>
 

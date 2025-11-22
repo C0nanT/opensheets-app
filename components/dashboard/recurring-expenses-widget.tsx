@@ -55,7 +55,7 @@ export function RecurringExpensesWidget({
                   <span className="inline-flex items-center gap-1">
                     {expense.paymentMethod}
                   </span>
-                  •<span>{formatOccurrences(expense.recurrenceCount)}</span>
+                  -<span>{formatOccurrences(expense.recurrenceCount)}</span>
                 </div>
               </div>
             </li>

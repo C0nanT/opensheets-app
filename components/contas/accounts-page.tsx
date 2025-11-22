@@ -137,7 +137,7 @@ export function AccountsPage({ accounts, logoOptions }: AccountsPageProps) {
                 <AccountCard
                   key={account.id}
                   accountName={account.name}
-                  accountType={`${account.accountType} • ${account.status}`}
+                  accountType={`${account.accountType} - ${account.status}`}
                   balance={account.balance ?? account.initialBalance ?? 0}
                   status={account.status}
                   excludeFromBalance={account.excludeFromBalance}

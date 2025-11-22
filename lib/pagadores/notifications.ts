@@ -165,7 +165,7 @@ export async function sendPagadorAutoEmails({
       await resend.emails.send({
         from: resendFrom,
         to: pagador.email,
-        subject: `${subjectPrefix} • ${pagador.name}`,
+        subject: `${subjectPrefix} - ${pagador.name}`,
         html,
       });
     })

@@ -114,7 +114,7 @@ const renderBoleto = (event: Extract<CalendarEvent, { type: "boleto" }>) => {
         <div className="flex flex-col">
           <span className="text-sm font-semibold">{event.lancamento.name}</span>
           <span className="text-xs text-muted-foreground">
-            Boleto{formattedDueDate ? ` • Vence em ${formattedDueDate}` : ""}
+            Boleto{formattedDueDate ? ` - Vence em ${formattedDueDate}` : ""}
           </span>
         </div>
         <span className="text-sm font-semibold text-foreground">

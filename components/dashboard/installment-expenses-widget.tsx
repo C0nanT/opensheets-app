@@ -173,8 +173,8 @@ export function InstallmentExpensesWidget({
 
                 <p className="text-xs text-muted-foreground mt-1">
                   Restantes {remainingInstallments}
-                  {endDate && ` • Termina em ${endDate}`}
-                  {" • Restante "}
+                  {endDate && ` - Termina em ${endDate}`}
+                  {" - Restante "}
                   <MoneyValues
                     amount={remainingAmount}
                     className="inline-block font-medium"

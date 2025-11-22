@@ -297,8 +297,8 @@ export function PagadorInfoCard({
                   registradas
                 </p>
                 <p className="text-xs">
-                  Cartões: {formatCurrency(summary.paymentSplits.card)} •
-                  Boletos: {formatCurrency(summary.paymentSplits.boleto)} •
+                  Cartões: {formatCurrency(summary.paymentSplits.card)} -
+                  Boletos: {formatCurrency(summary.paymentSplits.boleto)} -
                   Pix/Débito/Dinheiro:{" "}
                   {formatCurrency(summary.paymentSplits.instant)}
                 </p>
@@ -315,7 +315,7 @@ export function PagadorInfoCard({
                           (item) =>
                             `${item.name}: ${formatCurrency(item.amount)}`
                         )
-                        .join(" • ")
+                        .join(" - ")
                     : "Sem lançamentos com cartão no período."}
                 </p>
               </div>

@@ -5,7 +5,11 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { cn } from "@/lib/utils/ui";
-import { RiArrowDownSLine, RiArrowRightSLine, RiBillLine } from "@remixicon/react";
+import {
+  RiArrowDownSLine,
+  RiArrowRightSLine,
+  RiBillLine,
+} from "@remixicon/react";
 import { format, parse } from "date-fns";
 import { ptBR } from "date-fns/locale";
 import { useState } from "react";
@@ -68,7 +72,7 @@ export function PendingInvoiceCard({
                 </div>
                 <div className="mt-1 flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
                   <span className="capitalize">{periodText}</span>
-                  <span>•</span>
+                  <span>-</span>
                   <span>Vencimento: {dueDateText}</span>
                 </div>
               </div>
@@ -144,13 +148,13 @@ export function PendingInvoiceCard({
                         <span>{purchaseDate}</span>
                         {installmentLabel && (
                           <>
-                            <span>•</span>
+                            <span>-</span>
                             <span>Parcela {installmentLabel}</span>
                           </>
                         )}
                         {lancamento.condition !== "Parcelado" && (
                           <>
-                            <span>•</span>
+                            <span>-</span>
                             <span>{lancamento.condition}</span>
                           </>
                         )}

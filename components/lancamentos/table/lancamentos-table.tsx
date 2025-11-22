@@ -732,7 +732,7 @@ export function LancamentosTable({
               {selectedCount === 1 ? "item selecionado" : "itens selecionados"}
             </span>
             <span className="hidden sm:inline" aria-hidden>
-              •
+              -
             </span>
             <span>
               Total:{" "}

@@ -171,7 +171,7 @@ export default async function Page() {
             </div>
 
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <Card className="border-[1.5px] hover:border-primary/50 transition-colors">
+              <Card className="border hover:border-primary/50 transition-colors">
                 <CardContent className="pt-6">
                   <div className="flex flex-col gap-4">
                     <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
@@ -191,7 +191,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px] hover:border-primary/50 transition-colors">
+              <Card className="border hover:border-primary/50 transition-colors">
                 <CardContent className="pt-6">
                   <div className="flex flex-col gap-4">
                     <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
@@ -210,7 +210,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px] hover:border-primary/50 transition-colors">
+              <Card className="border hover:border-primary/50 transition-colors">
                 <CardContent className="pt-6">
                   <div className="flex flex-col gap-4">
                     <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
@@ -229,7 +229,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px] hover:border-primary/50 transition-colors">
+              <Card className="border hover:border-primary/50 transition-colors">
                 <CardContent className="pt-6">
                   <div className="flex flex-col gap-4">
                     <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
@@ -249,7 +249,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px] hover:border-primary/50 transition-colors">
+              <Card className="border hover:border-primary/50 transition-colors">
                 <CardContent className="pt-6">
                   <div className="flex flex-col gap-4">
                     <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
@@ -269,7 +269,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px] hover:border-primary/50 transition-colors">
+              <Card className="border hover:border-primary/50 transition-colors">
                 <CardContent className="pt-6">
                   <div className="flex flex-col gap-4">
                     <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
@@ -309,7 +309,7 @@ export default async function Page() {
             </div>
 
             <div className="grid gap-6 md:grid-cols-2">
-              <Card className="border-[1.5px]">
+              <Card className="border">
                 <CardContent>
                   <div className="flex items-start gap-4">
                     <RiCodeSSlashLine
@@ -329,7 +329,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px]">
+              <Card className="border">
                 <CardContent>
                   <div className="flex items-start gap-4">
                     <RiDatabase2Line
@@ -349,7 +349,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px]">
+              <Card className="border">
                 <CardContent>
                   <div className="flex items-start gap-4">
                     <RiShieldCheckLine
@@ -369,7 +369,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px]">
+              <Card className="border">
                 <CardContent>
                   <div className="flex items-start gap-4">
                     <RiDeviceLine size={32} className="text-primary shrink-0" />
@@ -415,7 +415,7 @@ export default async function Page() {
             </div>
 
             <div className="space-y-6">
-              <Card className="border-[1.5px]">
+              <Card className="border">
                 <CardContent>
                   <div className="flex gap-4">
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold">
@@ -434,7 +434,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px]">
+              <Card className="border">
                 <CardContent>
                   <div className="flex gap-4">
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold">
@@ -457,7 +457,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px]">
+              <Card className="border">
                 <CardContent>
                   <div className="flex gap-4">
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold">
@@ -475,7 +475,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px]">
+              <Card className="border">
                 <CardContent>
                   <div className="flex gap-4">
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold">
@@ -529,7 +529,7 @@ export default async function Page() {
             </div>
 
             <div className="space-y-4">
-              <Card className="border-[1.5px]">
+              <Card className="border">
                 <CardContent>
                   <div className="flex gap-4">
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10">
@@ -548,7 +548,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px]">
+              <Card className="border">
                 <CardContent>
                   <div className="flex gap-4">
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10">
@@ -567,7 +567,7 @@ export default async function Page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-[1.5px]">
+              <Card className="border">
                 <CardContent>
                   <div className="flex gap-4">
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10">
