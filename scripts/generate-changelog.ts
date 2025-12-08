@@ -103,9 +103,9 @@ function generateChangelog() {
     // Parseia conventional commits
     const entries: ChangelogEntry[] = commits
       .map((commit) => {
-        // Match conventional commit format: type: message
+        // Match conventional commit format: type: message or type(scope): message
         const match = commit.message.match(
-          /^(feat|fix|perf|docs|style|refactor|test|chore):\s*(.+)$/
+          /^(feat|fix|perf|docs|style|refactor|test|chore)(\(.+\))?:\s*(.+)$/
         );
 
         if (!match) {
@@ -113,7 +113,7 @@ function generateChangelog() {
           return null;
         }
 
-        const [, type, title] = match;
+        const [, type, , title] = match;
 
         return {
           id: commit.hash,

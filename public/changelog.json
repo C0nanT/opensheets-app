@@ -1,7 +1,15 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2025-12-08T14:32:17.605Z",
+  "generatedAt": "2025-12-08T15:16:10.003Z",
   "entries": [
+    {
+      "id": "b7fcba77b7ed0f887ba26e2b0ceae19904e140cd",
+      "type": "feat",
+      "title": "implementar funcionalidades de leitura de atualizações - Adiciona funções para marcar atualizações como lidas - Implementa a lógica para marcar todas as atualizações como lidas - Adiciona suporte a logs de atualizações lidas no banco de dados - Cria funções utilitárias para manipulação de changelog - Gera changelog a partir de commits do Git - Salva changelog em formato JSON na pasta pública perf: adicionar índices de banco de dados para otimização de queries - Cria 14 índices compostos em tabelas principais (lancamentos, contas, etc) - Adiciona índice user_id + period em lancamentos, faturas e orçamentos - Adiciona índices para séries de parcelas e transferências",
+      "date": "2025-12-08 14:56:50 +0000",
+      "icon": "✨",
+      "category": "feature"
+    },
     {
       "id": "7a4a947e3fa4f78f174d1042906828045cbf6eaf",
       "type": "fix",
@@ -153,14 +161,6 @@
       "date": "2025-11-17 19:45:01 +0000",
       "icon": "🔧",
       "category": "chore"
-    },
-    {
-      "id": "fcd4ebc608e7d0e9f6f0eb106ba7f53177d28d05",
-      "type": "feat",
-      "title": "melhorar UX/UI e segurança do módulo de ajustes de usuário",
-      "date": "2025-11-17 19:43:50 +0000",
-      "icon": "✨",
-      "category": "feature"
     }
   ]
 }
